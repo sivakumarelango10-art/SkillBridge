@@ -15,9 +15,9 @@ export interface StorageService {
 
 export class LocalStorageService implements StorageService {
   private baseDir: string;
-
   constructor(baseDir?: string) {
-    this.baseDir = path.resolve(baseDir || process.env.STORAGE_DIR || './uploads');
+    const defaultDir = process.env.VERCEL ? '/tmp/uploads' : './uploads';
+    this.baseDir = path.resolve(baseDir || process.env.STORAGE_DIR || defaultDir);
     if (!fs.existsSync(this.baseDir)) {
       fs.mkdirSync(this.baseDir, { recursive: true });
     }

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+    <rect width="600" height="350" fill="#253653" rx="12"/>
+    <text x="300" y="40" fill="#FFFFFF" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">H1 Monthly Revenue Performance</text>
+    <line x1="80" y1="280" x2="540" y2="280" stroke="#62B8E5" stroke-width="2"/>
+    <rect x="110" y="140" width="45" height="140" fill="#38A0D8" rx="4"/>
+    <text x="132" y="305" fill="#FFFFFF" font-family="sans-serif" font-size="12" text-anchor="middle">Jan</text>
+    <rect x="180" y="110" width="45" height="170" fill="#38A0D8" rx="4"/>
+    <text x="202" y="305" fill="#FFFFFF" font-family="sans-serif" font-size="12" text-anchor="middle">Feb</text>
+    <rect x="250" y="90" width="45" height="190" fill="#E57116" rx="4"/>
+    <text x="272" y="305" fill="#FFFFFF" font-family="sans-serif" font-size="12" text-anchor="middle">Mar</text>
+    <rect x="320" y="130" width="45" height="150" fill="#38A0D8" rx="4"/>
+    <text x="342" y="305" fill="#FFFFFF" font-family="sans-serif" font-size="12" text-anchor="middle">Apr</text>
+    <rect x="390" y="115" width="45" height="165" fill="#38A0D8" rx="4"/>
+    <text x="412" y="305" fill="#FFFFFF" font-family="sans-serif" font-size="12" text-anchor="middle">May</text>
+    <rect x="460" y="100" width="45" height="180" fill="#38A0D8" rx="4"/>
+    <text x="482" y="305" fill="#FFFFFF" font-family="sans-serif" font-size="12" text-anchor="middle">Jun</text>
+  </svg>

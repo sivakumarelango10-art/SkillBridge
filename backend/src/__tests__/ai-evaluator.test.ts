@@ -115,4 +115,15 @@ describe('AI Evaluator & Zod Validation', () => {
     expect(accuracy?.level).toBe('Meets');
     expect(completeness?.level).toBe('Mostly meets');
   });
+
+  it('correctly configures Groq AI provider when GROQ_API_KEY is supplied', () => {
+    process.env.AI_PROVIDER = 'groq';
+    process.env.GROQ_API_KEY = 'gsk_test_mock_key';
+    process.env.AI_MODEL = 'openai/gpt-oss-120b';
+
+    const groqService = new AIEvaluatorService();
+    expect((groqService as any).provider).toBe('groq');
+    expect((groqService as any).modelName).toBe('openai/gpt-oss-120b');
+    expect((groqService as any).apiKey).toBe('gsk_test_mock_key');
+  });
 });

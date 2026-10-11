@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { api } from '../api/client';
 import {
-  FileSpreadsheet,
+  FileCsv,
   DownloadSimple,
   ArrowRight,
   CheckCircle,
@@ -39,7 +39,7 @@ export const ChallengePage: React.FC = () => {
       {/* Header */}
       <div className="pb-8 border-b border-slate-200">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-actionBlue text-xs font-semibold mb-3">
-          <FileSpreadsheet size={16} /> Workplace Brief · Business Analytics
+          <FileCsv size={16} /> Workplace Brief · Business Analytics
         </div>
         <h1 className="text-3xl sm:text-4xl font-heading font-bold text-navy tracking-tight">
           Spreadsheet Insights Challenge

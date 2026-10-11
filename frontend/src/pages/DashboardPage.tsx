@@ -5,7 +5,7 @@ import { api } from '../api/client';
 import { useAuth } from '../context/AuthContext';
 import { RubricBadge } from '../components/RubricBadge';
 import {
-  FileSpreadsheet,
+  FileCsv,
   ArrowRight,
   ClockCounterClockwise,
   CheckCircle,
@@ -161,7 +161,7 @@ export const DashboardPage: React.FC = () => {
           <div className="text-center py-12 text-slate-400 text-sm">Loading submission records...</div>
         ) : submissions.length === 0 ? (
           <div className="bg-slate-50 border border-dashed border-slate-300 rounded-2xl p-10 text-center">
-            <FileSpreadsheet size={40} className="mx-auto text-slate-400 mb-3" />
+            <FileCsv size={40} className="mx-auto text-slate-400 mb-3" />
             <h4 className="font-heading font-bold text-base text-navy">No Submissions Yet</h4>
             <p className="text-xs text-slate-500 max-w-sm mx-auto mt-1 mb-4">
               Download the sales dataset and complete your first calculation and analysis attempt.

@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import {
   ArrowRight,
   CheckCircle,
-  FileSpreadsheet,
+  FileCsv,
   Target,
   Sparkle,
   ArrowsClockwise,
@@ -41,7 +41,7 @@ export const LandingPage: React.FC = () => {
       num: '02',
       title: 'Submit Real Work',
       desc: 'Enter structured calculations, upload your chart visual, cite quantitative findings, and explain your method.',
-      icon: <FileSpreadsheet size={24} className="text-actionBlue" />,
+      icon: <FileCsv size={24} className="text-actionBlue" />,
     },
     {
       num: '03',

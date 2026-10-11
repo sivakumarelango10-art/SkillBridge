@@ -6,7 +6,7 @@ import {
   UploadSimple,
   CheckCircle,
   FileImage,
-  FileSpreadsheet,
+  FileText,
   Trash,
   Lightning,
   FloppyDisk,
@@ -140,24 +140,24 @@ export const SubmissionPage: React.FC = () => {
   const handleAutofillCorrect = () => {
     setTotalRevenue('184609.87');
     setMonthlyRevenue({
-      Jan: '28678.96',
-      Feb: '32009.43',
-      Mar: '31526.96',
-      Apr: '30454.12',
-      May: '32560.10',
-      Jun: '29380.30',
+      Jan: '24752.80',
+      Feb: '34456.09',
+      Mar: '34905.41',
+      Apr: '28669.60',
+      May: '30833.77',
+      Jun: '30992.20',
     });
     setTopCategory('Furniture');
     setAverageOrderValue('923.05');
 
     setFindings([
       {
-        finding: 'Furniture is the dominant revenue engine, generating over 45% of total company sales.',
-        figures: 'Total Furniture sales: $84,150.20 out of $184,609.87 gross revenue.',
+        finding: 'Furniture is the dominant revenue engine, generating over 59% of total company sales.',
+        figures: 'Total Furniture sales: $109,063.69 out of $184,609.87 gross revenue.',
       },
       {
-        finding: 'May represented the peak revenue month, followed closely by February and March.',
-        figures: 'May reached $32,560.10, showing consistent transaction size above $900.',
+        finding: 'March was the highest revenue month ($34,905.41), closely followed by February ($34,456.09).',
+        figures: 'March reached $34,905.41 and February reached $34,456.09.',
       },
       {
         finding: 'Average Order Value remains remarkably stable around $923 per customer transaction.',
@@ -511,7 +511,7 @@ export const SubmissionPage: React.FC = () => {
 
           <div className="flex items-center gap-4">
             <label className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold rounded-lg cursor-pointer border border-slate-200 flex items-center gap-2 transition-colors">
-              <FileSpreadsheet size={16} />
+              <FileText size={16} />
               <span>{spreadsheetFile ? spreadsheetFile.name : 'Attach Spreadsheet (.xlsx / .csv)'}</span>
               <input
                 type="file"

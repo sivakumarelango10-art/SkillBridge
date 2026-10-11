@@ -1,12 +1,29 @@
 node_modules/
-**/node_modules/
+dist/
 .env
 .env.*
 !.env.example
-**/.env
-**/.env.*
-**/!.env.example
-dist/
-build/
-.next/
-uploads/
+!backend/.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# TypeScript build info
+*.tsbuildinfo
+
+# PostgreSQL database binary cluster
+backend/pgdata/
+pgdata/
+
+# User uploads (preserve seeded assets)
+uploads/charts/*
+!uploads/charts/sample_revenue_chart.svg
+uploads/spreadsheets/*
+uploads/datasets/*
+!uploads/datasets/sales.csv
+
+backend/uploads/charts/*
+!backend/uploads/charts/sample_revenue_chart.svg
+backend/uploads/spreadsheets/*
+backend/uploads/datasets/*
+!backend/uploads/datasets/sales.csv

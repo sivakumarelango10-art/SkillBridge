@@ -38,9 +38,15 @@ export class AIEvaluatorService {
   private modelName: string;
 
   constructor() {
-    this.provider = process.env.AI_PROVIDER || 'gemini';
-    this.apiKey = process.env.GEMINI_API_KEY || process.env.OPENAI_API_KEY || '';
-    this.modelName = process.env.AI_MODEL || (this.provider === 'openai' ? 'gpt-4o-mini' : 'gemini-1.5-flash');
+    this.provider = (process.env.AI_PROVIDER || (process.env.GROQ_API_KEY ? 'groq' : 'gemini')).toLowerCase();
+    this.apiKey = process.env.GROQ_API_KEY || process.env.GEMINI_API_KEY || process.env.OPENAI_API_KEY || '';
+    if (this.provider === 'groq') {
+      this.modelName = process.env.AI_MODEL || process.env.GROQ_MODEL || 'openai/gpt-oss-120b';
+    } else if (this.provider === 'openai') {
+      this.modelName = process.env.AI_MODEL || 'gpt-4o-mini';
+    } else {
+      this.modelName = process.env.AI_MODEL || 'gemini-1.5-flash';
+    }
   }
 
   buildPrompt(payload: AssessmentPayload, retryContext?: string): string {
@@ -136,7 +142,9 @@ Respond with ONLY valid JSON adhering strictly to this JSON format (no markdown 
         const prompt = this.buildPrompt(payload, attempt > 1 ? lastError : undefined);
         let rawText = '';
 
-        if (this.provider === 'openai' || process.env.OPENAI_API_KEY) {
+        if (this.provider === 'groq' || process.env.GROQ_API_KEY) {
+          rawText = await this.callGroq(prompt);
+        } else if (this.provider === 'openai' || process.env.OPENAI_API_KEY) {
           rawText = await this.callOpenAI(prompt);
         } else {
           rawText = await this.callGemini(prompt);
@@ -182,6 +190,32 @@ Respond with ONLY valid JSON adhering strictly to this JSON format (no markdown 
       model: this.modelName,
       error: `AI response validation failed after retry: ${lastError}`,
     };
+  }
+
+  private async callGroq(prompt: string): Promise<string> {
+    const key = process.env.GROQ_API_KEY || this.apiKey;
+    const url = 'https://api.groq.com/openai/v1/chat/completions';
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${key}`,
+      },
+      body: JSON.stringify({
+        model: this.modelName || 'openai/gpt-oss-120b',
+        messages: [{ role: 'user', content: prompt }],
+        temperature: 0.2,
+        response_format: { type: 'json_object' },
+      }),
+    });
+
+    if (!response.ok) {
+      const errBody = await response.text();
+      throw new Error(`Groq API error (${response.status}): ${errBody}`);
+    }
+
+    const json: any = await response.json();
+    return json?.choices?.[0]?.message?.content || '';
   }
 
   private async callGemini(prompt: string): Promise<string> {

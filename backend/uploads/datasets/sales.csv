@@ -1,0 +1,201 @@
+date,month,region,category,product,units,unit_price,revenue
+2026-02-13,Feb,North,"Office Supplies","Heavy Duty Stapler",6,17.15,102.90
+2026-01-25,Jan,West,"Furniture","Footrest Cushion",8,35.50,284.00
+2026-04-16,Apr,North,"Electronics","Noise-Cancelling Headphones",14,166.23,2327.22
+2026-02-24,Feb,East,"Electronics","Noise-Cancelling Headphones",13,154.48,2008.24
+2026-03-20,Mar,North,"Electronics","27-inch Monitor",13,227.60,2958.80
+2026-03-13,Mar,East,"Furniture","Monitor Arm Mount",11,68.19,750.09
+2026-01-23,Jan,North,"Office Supplies","Ergonomic Desk Mat",12,30.28,363.36
+2026-03-25,Mar,North,"Electronics","Wireless Mouse",5,24.58,122.90
+2026-06-04,Jun,North,"Furniture","Filing Cabinet 3-Drawer",6,137.40,824.40
+2026-06-09,Jun,North,"Furniture","Footrest Cushion",7,35.74,250.18
+2026-01-14,Jan,East,"Electronics","Mechanical Keyboard",10,86.68,866.80
+2026-02-24,Feb,North,"Furniture","Footrest Cushion",13,35.69,463.97
+2026-03-12,Mar,North,"Electronics","27-inch Monitor",10,230.73,2307.30
+2026-05-23,May,South,"Electronics","Wireless Mouse",13,26.20,340.60
+2026-02-06,Feb,South,"Electronics","27-inch Monitor",13,229.10,2978.30
+2026-02-11,Feb,East,"Electronics","27-inch Monitor",1,223.26,223.26
+2026-03-07,Mar,South,"Office Supplies","Laser Printer Paper (Box)",9,45.47,409.23
+2026-03-16,Mar,South,"Furniture","Standing Desk Frame",14,365.75,5120.50
+2026-06-28,Jun,North,"Electronics","27-inch Monitor",8,229.95,1839.60
+2026-05-10,May,West,"Electronics","27-inch Monitor",11,210.09,2310.99
+2026-03-19,Mar,West,"Furniture","Ergonomic Mesh Chair",9,274.49,2470.41
+2026-05-24,May,South,"Electronics","USB-C Dock",8,104.88,839.04
+2026-05-18,May,West,"Furniture","Filing Cabinet 3-Drawer",15,146.76,2201.40
+2026-05-01,May,North,"Office Supplies","Laser Printer Paper (Box)",4,46.11,184.44
+2026-06-12,Jun,South,"Office Supplies","Gel Pens (Pack of 12)",9,11.44,102.96
+2026-04-16,Apr,North,"Electronics","Wireless Mouse",4,24.46,97.84
+2026-03-08,Mar,West,"Furniture","Filing Cabinet 3-Drawer",6,142.81,856.86
+2026-06-08,Jun,West,"Office Supplies","Laser Printer Paper (Box)",12,45.40,544.80
+2026-01-19,Jan,North,"Electronics","Mechanical Keyboard",7,87.37,611.59
+2026-05-15,May,South,"Furniture","Filing Cabinet 3-Drawer",6,143.23,859.38
+2026-05-25,May,East,"Electronics","Noise-Cancelling Headphones",15,164.73,2470.95
+2026-01-02,Jan,East,"Office Supplies","Laser Printer Paper (Box)",1,44.72,44.72
+2026-05-04,May,North,"Office Supplies","Desk Organizer Tray",11,22.23,244.53
+2026-03-28,Mar,East,"Furniture","Ergonomic Mesh Chair",3,288.86,866.58
+2026-05-25,May,North,"Electronics","USB-C Dock",14,114.11,1597.54
+2026-01-22,Jan,East,"Furniture","Monitor Arm Mount",9,67.54,607.86
+2026-05-07,May,South,"Furniture","Standing Desk Frame",8,353.35,2826.80
+2026-01-07,Jan,South,"Electronics","USB-C Dock",11,106.99,1176.89
+2026-01-03,Jan,West,"Furniture","Standing Desk Frame",7,336.82,2357.74
+2026-06-09,Jun,South,"Office Supplies","Gel Pens (Pack of 12)",6,12.26,73.56
+2026-02-09,Feb,West,"Furniture","Ergonomic Mesh Chair",13,271.15,3524.95
+2026-02-13,Feb,West,"Furniture","Filing Cabinet 3-Drawer",1,143.98,143.98
+2026-06-08,Jun,North,"Furniture","Ergonomic Mesh Chair",12,273.76,3285.12
+2026-06-21,Jun,East,"Electronics","Noise-Cancelling Headphones",3,155.81,467.43
+2026-02-21,Feb,South,"Furniture","Monitor Arm Mount",7,65.09,455.63
+2026-02-11,Feb,North,"Office Supplies","Laser Printer Paper (Box)",15,43.81,657.15
+2026-06-19,Jun,East,"Electronics","Noise-Cancelling Headphones",15,162.60,2439.00
+2026-06-03,Jun,South,"Electronics","USB-C Dock",9,105.49,949.41
+2026-05-04,May,West,"Office Supplies","Laser Printer Paper (Box)",7,46.16,323.12
+2026-01-02,Jan,South,"Office Supplies","Heavy Duty Stapler",4,17.17,68.68
+2026-05-16,May,South,"Office Supplies","Gel Pens (Pack of 12)",13,11.87,154.31
+2026-06-14,Jun,South,"Office Supplies","Ergonomic Desk Mat",8,29.11,232.88
+2026-02-24,Feb,West,"Office Supplies","Laser Printer Paper (Box)",15,45.28,679.20
+2026-02-09,Feb,South,"Furniture","Filing Cabinet 3-Drawer",4,140.65,562.60
+2026-06-16,Jun,South,"Electronics","USB-C Dock",12,115.39,1384.68
+2026-04-24,Apr,North,"Furniture","Filing Cabinet 3-Drawer",6,145.43,872.58
+2026-05-21,May,South,"Office Supplies","Ergonomic Desk Mat",3,28.65,85.95
+2026-02-02,Feb,West,"Office Supplies","Laser Printer Paper (Box)",11,43.29,476.19
+2026-04-08,Apr,East,"Furniture","Standing Desk Frame",6,367.26,2203.56
+2026-05-25,May,North,"Furniture","Standing Desk Frame",5,342.56,1712.80
+2026-05-25,May,South,"Office Supplies","Heavy Duty Stapler",2,17.18,34.36
+2026-04-12,Apr,South,"Furniture","Standing Desk Frame",13,337.04,4381.52
+2026-03-17,Mar,North,"Furniture","Standing Desk Frame",15,344.36,5165.40
+2026-01-19,Jan,North,"Furniture","Ergonomic Mesh Chair",14,286.27,4007.78
+2026-03-05,Mar,North,"Electronics","Mechanical Keyboard",12,84.43,1013.16
+2026-01-02,Jan,East,"Office Supplies","Heavy Duty Stapler",1,18.66,18.66
+2026-06-04,Jun,East,"Furniture","Monitor Arm Mount",4,65.47,261.88
+2026-04-17,Apr,East,"Furniture","Filing Cabinet 3-Drawer",4,141.56,566.24
+2026-06-25,Jun,West,"Electronics","Wireless Mouse",8,25.90,207.20
+2026-04-22,Apr,East,"Office Supplies","Laser Printer Paper (Box)",13,46.25,601.25
+2026-03-25,Mar,South,"Furniture","Standing Desk Frame",6,338.76,2032.56
+2026-03-11,Mar,South,"Office Supplies","Heavy Duty Stapler",9,18.83,169.47
+2026-04-07,Apr,South,"Office Supplies","Heavy Duty Stapler",8,17.36,138.88
+2026-04-12,Apr,West,"Electronics","USB-C Dock",14,111.22,1557.08
+2026-04-26,Apr,South,"Furniture","Filing Cabinet 3-Drawer",4,141.16,564.64
+2026-01-26,Jan,East,"Electronics","USB-C Dock",2,112.13,224.26
+2026-02-21,Feb,West,"Electronics","Noise-Cancelling Headphones",4,154.07,616.28
+2026-03-21,Mar,South,"Electronics","Noise-Cancelling Headphones",2,157.29,314.58
+2026-06-25,Jun,West,"Electronics","Noise-Cancelling Headphones",9,161.84,1456.56
+2026-06-24,Jun,South,"Office Supplies","Ergonomic Desk Mat",7,29.27,204.89
+2026-01-14,Jan,West,"Furniture","Ergonomic Mesh Chair",10,289.41,2894.10
+2026-05-24,May,South,"Office Supplies","Gel Pens (Pack of 12)",4,12.51,50.04
+2026-02-11,Feb,West,"Furniture","Monitor Arm Mount",8,64.94,519.52
+2026-05-18,May,South,"Electronics","Noise-Cancelling Headphones",3,156.24,468.72
+2026-04-13,Apr,East,"Furniture","Ergonomic Mesh Chair",6,270.15,1620.90
+2026-04-11,Apr,East,"Furniture","Filing Cabinet 3-Drawer",8,139.29,1114.32
+2026-05-12,May,South,"Furniture","Filing Cabinet 3-Drawer",6,141.34,848.04
+2026-06-21,Jun,West,"Office Supplies","Gel Pens (Pack of 12)",1,11.60,11.60
+2026-02-10,Feb,South,"Electronics","Mechanical Keyboard",1,84.24,84.24
+2026-02-17,Feb,West,"Office Supplies","Heavy Duty Stapler",11,18.77,206.47
+2026-05-10,May,South,"Furniture","Monitor Arm Mount",15,65.89,988.35
+2026-04-11,Apr,South,"Office Supplies","Heavy Duty Stapler",8,17.40,139.20
+2026-05-18,May,South,"Office Supplies","Desk Organizer Tray",4,22.29,89.16
+2026-02-20,Feb,North,"Office Supplies","Desk Organizer Tray",11,23.02,253.22
+2026-02-19,Feb,East,"Electronics","Mechanical Keyboard",12,88.69,1064.28
+2026-04-08,Apr,West,"Electronics","Noise-Cancelling Headphones",1,165.40,165.40
+2026-04-03,Apr,South,"Furniture","Standing Desk Frame",2,339.28,678.56
+2026-03-23,Mar,West,"Office Supplies","Desk Organizer Tray",9,21.26,191.34
+2026-01-17,Jan,West,"Furniture","Ergonomic Mesh Chair",14,291.83,4085.62
+2026-04-07,Apr,South,"Electronics","Mechanical Keyboard",15,83.20,1248.00
+2026-06-17,Jun,North,"Furniture","Ergonomic Mesh Chair",13,273.95,3561.35
+2026-01-12,Jan,East,"Electronics","USB-C Dock",9,112.94,1016.46
+2026-05-04,May,North,"Furniture","Standing Desk Frame",7,337.53,2362.71
+2026-06-22,Jun,North,"Electronics","USB-C Dock",13,112.18,1458.34
+2026-04-04,Apr,South,"Furniture","Standing Desk Frame",15,346.62,5199.30
+2026-02-28,Feb,West,"Furniture","Standing Desk Frame",7,333.66,2335.62
+2026-06-09,Jun,West,"Office Supplies","Laser Printer Paper (Box)",6,44.06,264.36
+2026-03-19,Mar,North,"Office Supplies","Ergonomic Desk Mat",8,30.30,242.40
+2026-02-04,Feb,East,"Electronics","27-inch Monitor",13,224.20,2914.60
+2026-05-04,May,North,"Furniture","Standing Desk Frame",15,342.99,5144.85
+2026-06-01,Jun,North,"Office Supplies","Ergonomic Desk Mat",15,28.74,431.10
+2026-02-25,Feb,South,"Office Supplies","Ergonomic Desk Mat",15,29.38,440.70
+2026-04-05,Apr,North,"Electronics","Wireless Mouse",2,26.10,52.20
+2026-06-08,Jun,South,"Office Supplies","Ergonomic Desk Mat",14,30.88,432.32
+2026-01-21,Jan,East,"Office Supplies","Desk Organizer Tray",2,20.97,41.94
+2026-02-23,Feb,East,"Electronics","Wireless Mouse",6,24.27,145.62
+2026-04-23,Apr,North,"Office Supplies","Laser Printer Paper (Box)",2,45.00,90.00
+2026-01-16,Jan,West,"Furniture","Footrest Cushion",13,35.21,457.73
+2026-03-07,Mar,South,"Office Supplies","Gel Pens (Pack of 12)",3,11.89,35.67
+2026-02-24,Feb,East,"Furniture","Filing Cabinet 3-Drawer",3,134.70,404.10
+2026-05-16,May,North,"Office Supplies","Laser Printer Paper (Box)",6,44.92,269.52
+2026-04-12,Apr,South,"Furniture","Standing Desk Frame",1,336.62,336.62
+2026-02-02,Feb,East,"Office Supplies","Desk Organizer Tray",14,22.90,320.60
+2026-04-26,Apr,West,"Office Supplies","Heavy Duty Stapler",7,18.03,126.21
+2026-05-16,May,South,"Office Supplies","Ergonomic Desk Mat",1,31.29,31.29
+2026-04-12,Apr,South,"Office Supplies","Gel Pens (Pack of 12)",7,12.25,85.75
+2026-01-25,Jan,West,"Furniture","Ergonomic Mesh Chair",15,290.34,4355.10
+2026-03-12,Mar,South,"Office Supplies","Ergonomic Desk Mat",7,30.18,211.26
+2026-02-17,Feb,South,"Office Supplies","Gel Pens (Pack of 12)",9,12.48,112.32
+2026-03-18,Mar,West,"Electronics","Wireless Mouse",11,24.30,267.30
+2026-04-05,Apr,South,"Office Supplies","Heavy Duty Stapler",10,17.21,172.10
+2026-02-08,Feb,South,"Furniture","Ergonomic Mesh Chair",11,277.31,3050.41
+2026-06-12,Jun,East,"Furniture","Footrest Cushion",1,35.34,35.34
+2026-06-07,Jun,North,"Electronics","Wireless Mouse",13,24.27,315.51
+2026-05-10,May,South,"Electronics","Wireless Mouse",7,24.64,172.48
+2026-05-18,May,South,"Electronics","Noise-Cancelling Headphones",9,165.48,1489.32
+2026-03-28,Mar,South,"Electronics","USB-C Dock",3,115.42,346.26
+2026-03-09,Mar,South,"Electronics","Mechanical Keyboard",4,85.30,341.20
+2026-06-11,Jun,East,"Office Supplies","Laser Printer Paper (Box)",14,46.25,647.50
+2026-04-14,Apr,West,"Office Supplies","Desk Organizer Tray",4,22.01,88.04
+2026-05-05,May,West,"Electronics","Noise-Cancelling Headphones",1,162.11,162.11
+2026-02-23,Feb,South,"Furniture","Footrest Cushion",5,35.23,176.15
+2026-05-28,May,North,"Office Supplies","Desk Organizer Tray",11,22.72,249.92
+2026-03-11,Mar,South,"Office Supplies","Ergonomic Desk Mat",5,28.85,144.25
+2026-04-08,Apr,North,"Furniture","Filing Cabinet 3-Drawer",6,139.94,839.64
+2026-03-13,Mar,North,"Electronics","27-inch Monitor",12,230.55,2766.60
+2026-02-19,Feb,North,"Furniture","Monitor Arm Mount",3,61.85,185.55
+2026-04-21,Apr,West,"Office Supplies","Gel Pens (Pack of 12)",10,12.03,120.30
+2026-05-04,May,East,"Office Supplies","Heavy Duty Stapler",3,17.34,52.02
+2026-06-23,Jun,East,"Furniture","Filing Cabinet 3-Drawer",2,141.22,282.44
+2026-06-10,Jun,North,"Office Supplies","Desk Organizer Tray",11,23.10,254.10
+2026-05-22,May,North,"Furniture","Monitor Arm Mount",1,65.21,65.21
+2026-01-15,Jan,East,"Electronics","Noise-Cancelling Headphones",3,159.37,478.11
+2026-04-28,Apr,South,"Office Supplies","Gel Pens (Pack of 12)",11,12.29,135.19
+2026-02-09,Feb,East,"Electronics","Noise-Cancelling Headphones",7,164.62,1152.34
+2026-01-23,Jan,South,"Office Supplies","Heavy Duty Stapler",6,18.27,109.62
+2026-03-25,Mar,South,"Office Supplies","Gel Pens (Pack of 12)",6,12.51,75.06
+2026-03-18,Mar,West,"Furniture","Standing Desk Frame",7,340.53,2383.71
+2026-06-25,Jun,North,"Furniture","Ergonomic Mesh Chair",9,290.71,2616.39
+2026-03-13,Mar,West,"Furniture","Monitor Arm Mount",12,64.56,774.72
+2026-06-20,Jun,South,"Office Supplies","Ergonomic Desk Mat",14,31.21,436.94
+2026-04-23,Apr,North,"Furniture","Standing Desk Frame",3,356.47,1069.41
+2026-06-10,Jun,South,"Electronics","27-inch Monitor",5,216.47,1082.35
+2026-04-03,Apr,North,"Electronics","Wireless Mouse",13,26.15,339.95
+2026-01-10,Jan,East,"Office Supplies","Gel Pens (Pack of 12)",14,12.13,169.82
+2026-06-21,Jun,South,"Office Supplies","Heavy Duty Stapler",1,17.11,17.11
+2026-02-10,Feb,West,"Furniture","Filing Cabinet 3-Drawer",11,134.47,1479.17
+2026-04-16,Apr,East,"Electronics","USB-C Dock",7,110.74,775.18
+2026-03-16,Mar,North,"Furniture","Ergonomic Mesh Chair",1,287.68,287.68
+2026-03-22,Mar,North,"Furniture","Filing Cabinet 3-Drawer",4,136.41,545.64
+2026-05-09,May,East,"Office Supplies","Gel Pens (Pack of 12)",3,11.55,34.65
+2026-06-01,Jun,East,"Electronics","USB-C Dock",5,115.28,576.40
+2026-04-15,Apr,East,"Electronics","Wireless Mouse",8,26.16,209.28
+2026-02-08,Feb,South,"Furniture","Filing Cabinet 3-Drawer",12,146.21,1754.52
+2026-02-21,Feb,East,"Furniture","Monitor Arm Mount",11,62.16,683.76
+2026-04-13,Apr,West,"Furniture","Filing Cabinet 3-Drawer",4,138.61,554.44
+2026-01-08,Jan,North,"Office Supplies","Ergonomic Desk Mat",10,29.28,292.80
+2026-05-10,May,North,"Office Supplies","Desk Organizer Tray",6,23.00,138.00
+2026-05-19,May,North,"Electronics","USB-C Dock",7,111.41,779.87
+2026-03-24,Mar,North,"Electronics","Wireless Mouse",12,24.34,292.08
+2026-06-20,Jun,South,"Office Supplies","Ergonomic Desk Mat",14,30.42,425.88
+2026-05-22,May,West,"Office Supplies","Gel Pens (Pack of 12)",10,11.56,115.60
+2026-05-17,May,North,"Furniture","Monitor Arm Mount",14,67.45,944.30
+2026-03-17,Mar,South,"Electronics","USB-C Dock",4,109.59,438.36
+2026-06-05,Jun,North,"Furniture","Monitor Arm Mount",14,64.18,898.52
+2026-06-06,Jun,North,"Office Supplies","Heavy Duty Stapler",15,18.01,270.15
+2026-03-28,Mar,South,"Electronics","Noise-Cancelling Headphones",6,167.34,1004.04
+2026-02-18,Feb,West,"Furniture","Ergonomic Mesh Chair",9,291.03,2619.27
+2026-04-11,Apr,South,"Furniture","Footrest Cushion",1,33.77,33.77
+2026-04-16,Apr,East,"Office Supplies","Heavy Duty Stapler",3,18.53,55.59
+2026-05-08,May,East,"Office Supplies","Heavy Duty Stapler",11,17.40,191.40
+2026-06-22,Jun,East,"Furniture","Footrest Cushion",11,35.95,395.45
+2026-02-21,Feb,South,"Electronics","Noise-Cancelling Headphones",7,165.78,1160.46
+2026-06-15,Jun,East,"Electronics","USB-C Dock",7,108.40,758.80
+2026-01-09,Jan,South,"Office Supplies","Gel Pens (Pack of 12)",11,11.76,129.36
+2026-01-19,Jan,South,"Office Supplies","Heavy Duty Stapler",5,17.96,89.80
+2026-06-13,Jun,South,"Electronics","USB-C Dock",10,106.58,1065.80
+2026-06-03,Jun,South,"Electronics","27-inch Monitor",1,229.90,229.90
+2026-04-11,Apr,West,"Office Supplies","Gel Pens (Pack of 12)",9,12.16,109.44
+2026-02-16,Feb,West,"Electronics","Mechanical Keyboard",6,83.42,500.52

@@ -112,7 +112,7 @@ router.post(
       }
 
       // Validate chart upload if present
-      let chartPath: string | null = null;
+      let chartPath: string | null = req.body.chartPath || null;
       if (chartFile) {
         const validation = defaultStorage.validateFile(
           chartFile,
