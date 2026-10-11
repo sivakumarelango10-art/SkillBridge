@@ -1,0 +1,114 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String          @id @default(cuid())
+  name         String
+  email        String          @unique
+  passwordHash String
+  role         String          @default("learner") // "learner", "mentor", "admin"
+  createdAt    DateTime        @default(now())
+  submissions  Submission[]
+  mentorReviews MentorReview[]
+  portfolioItems PortfolioItem[]
+  shareLinks   ShareLink[]
+}
+
+model Challenge {
+  id           String      @id @default(cuid())
+  title        String
+  instructions String      @db.Text
+  datasetPath  String
+  createdAt    DateTime    @default(now())
+  rubrics      Rubric[]
+  answerKey    AnswerKey?
+  submissions  Submission[]
+}
+
+model Rubric {
+  id          String    @id @default(cuid())
+  challengeId String
+  challenge   Challenge @relation(fields: [challengeId], references: [id], onDelete: Cascade)
+  version     Int       @default(1)
+  criteria    Json      // list of criteria definitions
+  createdAt   DateTime  @default(now())
+
+  @@unique([challengeId, version])
+}
+
+model AnswerKey {
+  id          String    @id @default(cuid())
+  challengeId String    @unique
+  challenge   Challenge @relation(fields: [challengeId], references: [id], onDelete: Cascade)
+  values      Json      // ground truth computed from sales.csv
+  createdAt   DateTime  @default(now())
+}
+
+model Submission {
+  id              String          @id @default(cuid())
+  userId          String
+  user            User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  challengeId     String
+  challenge       Challenge       @relation(fields: [challengeId], references: [id], onDelete: Cascade)
+  attempt         Int             @default(1)
+  answers         Json            // structured answers { totalRevenue, monthlyRevenue, topCategory, aov }
+  chartPath       String?
+  spreadsheetPath String?
+  findings        Json            // array of 3 findings [{ finding, figures }]
+  explanation     String          @db.Text
+  status          String          @default("submitted") // draft, submitted, feedback_ready, revised, published
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  assessments     Assessment[]
+  portfolioItems  PortfolioItem[]
+}
+
+model Assessment {
+  id            String         @id @default(cuid())
+  submissionId  String
+  submission    Submission     @relation(fields: [submissionId], references: [id], onDelete: Cascade)
+  rubricVersion Int            @default(1)
+  deterministic Json           // deterministic check outcomes
+  aiOutput      Json?          // AI rubric assessment JSON or pending marker
+  model         String?        // model used e.g. "gemini-1.5-flash", "heuristic-fallback"
+  createdAt     DateTime       @default(now())
+  mentorReviews MentorReview[]
+}
+
+model MentorReview {
+  id           String     @id @default(cuid())
+  assessmentId String
+  assessment   Assessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  mentorId     String
+  mentor       User       @relation(fields: [mentorId], references: [id], onDelete: Cascade)
+  levels       Json       // mentor criterion levels
+  notes        String?    @db.Text
+  createdAt    DateTime   @default(now())
+}
+
+model PortfolioItem {
+  id           String     @id @default(cuid())
+  userId       String
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  submissionId String
+  submission   Submission @relation(fields: [submissionId], references: [id], onDelete: Cascade)
+  visible      Boolean    @default(false)
+  createdAt    DateTime   @default(now())
+
+  @@unique([userId, submissionId])
+}
+
+model ShareLink {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String    @unique
+  revokedAt DateTime?
+  createdAt DateTime  @default(now())
+}
