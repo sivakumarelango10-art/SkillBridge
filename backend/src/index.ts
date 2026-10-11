@@ -100,9 +100,5 @@ if (!process.env.VERCEL && process.env.NODE_ENV !== 'test') {
   });
 }
 
-// Support both ESM default and CommonJS module.exports for Vercel functions
+// Export default Express application for Vercel serverless / Fluid compute
 export default app;
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = app;
-  module.exports.default = app;
-}
